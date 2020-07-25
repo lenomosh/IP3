@@ -55,4 +55,30 @@ section.portfolio .portfolio-item .item-title{
     margin: 0;
     transition: 1s;
 }
+section.contact-us{
+    color: white;
+    background-image: url('../../assets/backgrounds/c_image.jpg');
+}
+section.contact-us .title{
+    font-size: 1.5rem;
+}
+section.contact-us .form-wrapper{
+    padding: 20px 100px;
+}
+section.contact-us .form-wrapper input,
+section.contact-us .form-wrapper textarea{
+ 
+    border: 2px solid white;
+}
+section.contact-us .form-wrapper input::placeholder,
+section.contact-us .form-wrapper textarea::placeholder{
 
+    color: white;
+}
+section.contact-us .form-wrapper{
+    padding: 20px;
+
+}
+section.contact-us .form-wrapper input[type='submit']{
+margin: auto;
+}
