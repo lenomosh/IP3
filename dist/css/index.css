@@ -21,3 +21,14 @@ section.landing-page .mouse-click{
     bottom: 20px;
     /* padding-top: 100px; */
 }
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+section{
+    padding: 50px;
+}
+section.services{
+    background-image: url('../../assets/backgrounds/s_image.jpg');
+    width: 100%;
+}
