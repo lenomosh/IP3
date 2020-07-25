@@ -28,6 +28,9 @@ section.landing-page .mouse-click{
 section{
     padding: 50px;
 }
+section.what-we-do .img-wrapper{
+    cursor: pointer;
+}
 section.services{
     background-image: url('../../assets/backgrounds/s_image.jpg');
     width: 100%;
@@ -45,15 +48,17 @@ section.portfolio .portfolio-item  .img-wrapper img{
  margin: auto;
 }
 section.portfolio .portfolio-item .item-title{
+    display: none;
     font-size: 1.5rem;
     position: absolute;
     top: 50%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     width: 100%;
     text-align: center;
     margin: 0;
-    transition: 1s;
+    padding: 0;
+    transition: ease 1s;
 }
 section.contact-us{
     color: white;
