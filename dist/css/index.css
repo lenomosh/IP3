@@ -32,3 +32,27 @@ section.services{
     background-image: url('../../assets/backgrounds/s_image.jpg');
     width: 100%;
 }
+section.portfolio .portfolio-item{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+section.portfolio .portfolio-item  .img-wrapper{
+width: 300px;
+overflow: hidden;
+}
+section.portfolio .portfolio-item  .img-wrapper img{
+ margin: auto;
+}
+section.portfolio .portfolio-item .item-title{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
